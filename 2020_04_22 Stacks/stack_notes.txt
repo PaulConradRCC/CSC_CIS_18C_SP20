@@ -1,0 +1,27 @@
+
+Stacks: a very useful data structure.
+
+LIFO: Last In, First Out
+
+Can be used to reverse order of data:
+
+13, 16, 45, 56 -> 56, 45, 16, 13
+
+we can uses a stack to reverse these.
+
+
+Primary operations - all of these are O(1):
+
+push -> inserts data on the top of the stack
+
+pop -> removes data from the top of the stack
+
+peek -> takes a look at the value at the top of the stack without removing it
+
+Secondary operations:
+
+isEmpty -> returns true if stack empty, or false if there are items on stack
+
+clear -> clears all items off stack
+
+toString -> displays all items on the stack from top to bottom
